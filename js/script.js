@@ -3,7 +3,7 @@ const { createApp } = Vue
 createApp({
     data() {
         return {
-            resultsArray: []
+            resultsArray: [],
         }
     },
     created() {
@@ -13,12 +13,4 @@ createApp({
             });
 
     },
-
-    methods: {
-        // addToFav(index) {
-        //     this.resultsArray[index].liked = !this.resultsArray[index].liked
-
-        //     console.log(this.resultsArray[index].liked , this.resultsArray[index]);
-        // }
-    }
 }).mount('#app')
