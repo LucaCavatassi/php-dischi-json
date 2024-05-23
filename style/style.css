@@ -1,0 +1,46 @@
+/* COMMON */
+body {
+    height: 100vh;
+    background-color: #cde1c1;
+}
+
+
+/* NAV */
+header {
+    height: 60px;
+    background-color: white;
+}
+
+.container {
+    height: 100%;
+}
+
+.img-cont {
+    width: 14%;
+}
+
+.img-cont img {
+    height: 100%;
+    width: 100%;
+    min-width: 80px;
+    min-height: 80px;
+
+    object-fit: contain;
+}
+
+/* CARDS */
+.row {
+    padding: 50px;
+    width: 75%;
+}
+.card {
+    background-color: #1cd760;
+}
+
+.card-title {
+    font-size: 0.9rem;
+}
+
+.card-text {
+    margin-bottom: 0;
+}
