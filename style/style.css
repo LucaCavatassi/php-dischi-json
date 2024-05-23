@@ -35,6 +35,7 @@ header {
 }
 .card {
     background-color: #1cd760;
+    position: relative;
 }
 
 .card-title {
@@ -43,4 +44,26 @@ header {
 
 .card-text {
     margin-bottom: 0;
+}
+
+/* LIKE BUTTON */
+.ms-like-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.ms-like-btn button{
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.ms-like-btn {
+    display: none;
+}
+
+.card:hover .ms-like-btn {
+    display: block;
 }
