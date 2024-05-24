@@ -23,6 +23,14 @@
                     <img src="./img/logo.png" alt="">
                 </div>
                 <div>
+                    <select id="selector" name="selector" id="category" aria-label="category">
+                        <option selected disabled>Seleziona un opzione.</option>
+                        <option value="all">All</option>
+                        <option value="liked">Liked</option>
+                    </select>
+                    <button type="submit" @click="showLiked">Vai</button>
+                </div>
+                <div>
                     <h5>Spotify</h5>
                 </div>
             </div>
